@@ -1,0 +1,12 @@
+Versão UserPrograms: 04.05
+
+Customização:
+
+ANM#3 - Obrigatório ao encerrar uma venda e esta for a primeira venda do vendedor,
+solicitar o número da boleta de controle e armazenar na tabela ANM_CONTROLE_BOLETA_VENDA.
+Parâmetro ANM_NUM_BOLETO_LJ habilita e desabilita essa função.
+Script "04.05 - 26 - LOJA - CREATE TABLE ANM_CONTROLE_BOLETA_VENDA.sql" da pasta 
+UserPrograms\Script cria a tabela ANM_CONTROLE_BOLETA_VENDA se não existir no banco
+quando é iniciado o LinxPos.
+Inclui na tela de Gerenciamento de Caixa LinxPos o icone para gerar o Relatório: Controle de Boleta Vendedores
+
