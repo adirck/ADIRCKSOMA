@@ -1,0 +1,3 @@
+update a set VALOR_ATUAL = '01-04-2026'
+from pARAMETROS a
+where PARAMETRO like 'DT_INI_REFORMA_TRIBUTARIA'
